@@ -82,6 +82,16 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<repository>
+			<uniqueVersion>false</uniqueVersion>
+			<id>PartyAdd</id>
+			<name>Party Repository</name>
+			<url>https://github.com/Hillelmed/PartyApp</url>
+			<layout>default</layout>
+		</repository>
+	</distributionManagement>
+
 	<repositories>
 		<repository>
 			<id>spring-milestones</id>
