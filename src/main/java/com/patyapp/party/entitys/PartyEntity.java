@@ -1,7 +1,6 @@
 package com.patyapp.party.entitys;
 
 
-
 public class PartyEntity {
 
     public long id;

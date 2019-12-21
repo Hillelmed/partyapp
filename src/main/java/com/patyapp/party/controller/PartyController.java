@@ -26,7 +26,7 @@ public class PartyController {
     RestTemplate restTemplate;
 
     public Mono<PartyEntity> createParty(String locationPhoto, PartyEntity partyEntity) {
-        ResponseEntity<byte[]> reponsePhoto = restTemplate.getForEntity(locationPhoto,byte[].class);
+        ResponseEntity<byte[]> reponsePhoto = restTemplate.getForEntity(locationPhoto, byte[].class);
         System.out.println(reponsePhoto.getBody());
         partyEntity.photo = reponsePhoto.getBody();
         return partyJpa.save(partyEntity);

@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 public class PartyConfiguration {
 
     @Bean
-    public RestTemplate getTemplate(){
+    public RestTemplate getTemplate() {
         return new RestTemplate();
     }
 }
