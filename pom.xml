@@ -3,3 +3,8 @@
   <Apple>2</Apple>
   <Jet>Li</Jet>
 </ObjectNode>
+<ObjectNode>
+  <Puppy>true</Puppy>
+  <Apple>2</Apple>
+  <Jet>Li</Jet>
+</ObjectNode>
